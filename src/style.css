@@ -1,5 +1,5 @@
 body {
-  background-color: #f9f7fe;
+  background-color: #cadefc;
   font-family: "Poppins", sans-serif;
 }
 
@@ -22,7 +22,7 @@ header {
 }
 
 .search-form-input {
-  background-color: #f9f7fe;
+  background-color: #cadefc;
   border: none;
   border-radius: 7px;
   width: 80%;
@@ -51,8 +51,9 @@ main {
 
 .weather-app-city {
   margin: 0;
-  font-size: 38px;
+  font-size: 44px;
   line-height: 48px;
+  font-family: "Shadows Into Light Two", cursive;
 }
 
 .weather-app-details {
@@ -79,6 +80,7 @@ main {
 .weather-app-temperature {
   font-size: 88px;
   line-height: 88px;
+  font-family: "Shadows Into Light Two", cursive;
 }
 
 .weather-app-unit {
