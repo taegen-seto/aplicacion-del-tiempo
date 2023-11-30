@@ -54,6 +54,7 @@ main {
   font-size: 44px;
   line-height: 48px;
   font-family: "Shadows Into Light Two", cursive;
+  color: #7b0699;
 }
 
 .weather-app-details {
@@ -74,37 +75,52 @@ main {
 .weather-app-icon {
   width: 88px;
   height: 88px;
-  display: block;
-  margin: 0 auto;
 }
+
 .weather-app-temperature {
   font-size: 88px;
   line-height: 88px;
+  color: #7b0699;
   font-family: "Shadows Into Light Two", cursive;
 }
 
 .weather-app-unit {
   margin-top: 6px;
   font-size: 28px;
+  color: #7b0699;
 }
 
 .weather-forecast {
-  margin-top: 20px;
-  text-align: center;
-  color: 000;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
 }
 
 .weather-forecast-date {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
   font-size: 16px;
-  opacity: 0.5;
+  line-height: 20px;
+  margin-bottom: 10px;
 }
 
-.weather-forecast-temperature-min {
-  opacity: 0.5;
+.weather-forecast-icon {
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
 }
 
 .weather-forecast-temperatures {
-  font-size: 16px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-forecast-temperature {
+  padding: 0 10px;
 }
 
 footer {
